@@ -3,9 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="./assets/css/styleC.css">
+    <link rel="stylesheet" href="./assets/css/styleA.css">
+    <!-- <link rel="stylesheet" href="./assets/css/styleB.css"> -->
+
 </head>
 <body>
-    <h1>Xin chào</h1>
+    <main>
+        <div class="animation">
+          <div class="loading">
+            <h2>2023</h2>
+            <div class="bar"></div>
+            <h2>2024</h2>
+          </div>
+          <div class="center">
+            <div>
+              <h2>Happy New Year</h2>
+            </div>
+            <div></div>
+            <div>
+              <h2>2024</h2>
+            </div>
+            <div></div>
+          </div>
+        </div>
+
+        <div class="wrapper">
+            <div class="container">
+                <div class="box">A</div>
+                <div class="box">B</div>
+                <div class="box">C</div>
+                <div class="box">D</div>
+                <div class="box">E</div>
+                <div class="box">F</div>
+            </div>
+        </div>
+
+        
+    </main>
+    <script>
+      setTimeout(function() {
+        var divToHide = document.querySelector('.animation');
+        divToHide.classList.add('hidden');
+      }, 20000);
+    </script>
 </body>
 </html>
