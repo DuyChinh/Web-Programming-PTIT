@@ -1,4 +1,4 @@
-.container {
+.list-box {
     position: relative;
     height: 400px;
     width: 80%;
@@ -9,7 +9,7 @@
     box-shadow: 0 0 8px #ccc;
 }
 
-.container .box {
+.list-box .box {
     height: 150px;
     width: 100px;
     background: #eeeff2;
@@ -17,13 +17,13 @@
     font-size: 40px;
 }
 
-.container .box:last-child {
+.list-box .box:last-child {
     position: absolute;
     right: 10px;
     bottom: 10px;
 }
 
-.container .box:hover {
+.list-box .box:hover {
     cursor: pointer;
     background: yellow;
     color: goldenrod;
